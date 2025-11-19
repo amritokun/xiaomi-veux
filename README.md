@@ -8,6 +8,7 @@ Current status :
 - [x] Manual and auto-brightness
 - [x] Touchscreen
 - [x] RIL (SMS and calls)
+- [x] Dual SIM
 - [x] Mobile data (tested up to 4G, I don't have 5G)
 - [x] USB SSH
 - [x] Ubports recovery (with adb and fastbootd)
@@ -40,7 +41,8 @@ Current status :
 
 - Unstable / Bugs :
 - [ ] There's no vibration lomiri keyboard taps (it works everywhere else),
-- [ ] The keyboard clicks still produce sounds even when the phone is on Silent mode (disabled by default).
+- [ ] The keyboard clicks still produce sounds even when the phone is on Silent mode (disabled by default),
+- [ ] Hotspot (aka sharing mobile data with other devices) occasionally causes kernel panics. But it's rare.
 
 Untested :
 - [ ] NFC (seems to work)
@@ -49,7 +51,6 @@ Untested :
 Unsupported (won't/can't fix) :
 - [ ] UDFPS (Underdispay fingerprint is apparently not supported by UT yet)
 - [ ] Glyphs interface aka the LED strips on the back of the phone (not sure how to fix these). They can still be controlled through sysfs
-- [ ] Dual Sim functionnaly (only 1 SIM at a time)
 - [ ] 90Hz and 120Hz display refresh rates
 
 Credits and thanks :
