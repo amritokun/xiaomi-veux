@@ -1,12 +1,14 @@
 SPACEWAR:
   Names:
-    - spacewar
-    - SPACEWAR
-    - Spacewar
-    - Nothing Phone 1
-    - Nothing Phone (1)
+    - veux
+    - VEUX
+    - Veux
+    - peux
+    - Peux
+    - PEUX
+    - Poco X4 Pro
 
-  PrettyName: Nothing Phone 1
+  PrettyName: Poco X4 Pro
   DeviceType: phone
   GridUnit: 24
   SupportedOrientations:
